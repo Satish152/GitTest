@@ -7,13 +7,13 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class DemoTest {
+public class DemoGitTest {
 
 	@Test
 	public void Login(){
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
-		driver.get("https://www.faceboo.com");
+		driver.get("https://www.facebook.com");
 		driver.findElement(By.id("email"));
 	}
 }
