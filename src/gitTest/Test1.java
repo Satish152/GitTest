@@ -12,6 +12,6 @@ public class Test1 {
 	public static void Chrome(){
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
-		driver.get("https://facebookcom");
+		driver.get("https://www.facebookcom");
 	}
 }
