@@ -14,6 +14,6 @@ public class DemoGitTest {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.facebook.com");
-		driver.findElement(By.id("email")).sendKeys("srongala1");;
+		driver.findElement(By.id("email")).sendKeys("srongala1");
 	}
 }
